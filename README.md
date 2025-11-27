@@ -45,11 +45,6 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 4. Install Packages Inside the Virtual Environment
-```bash
-pip install -r requirements.txt
-```
-
 ### 5. Run
 #### Part_1
 ```bash
@@ -87,6 +82,8 @@ flask run --debug
 ```bash
 python rest_client.py
 ```
+
+#### Part_3
 
 
 
