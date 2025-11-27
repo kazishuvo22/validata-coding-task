@@ -45,13 +45,13 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 5. Run
-#### Part_1
+## How to run the program
+### Part_1
 ```bash
 python part-1/main.py
 ```
 
-#### Part_2
+### Part_2
 
 ##### Windows
 1. Download MSSQL Server 2019
@@ -61,7 +61,7 @@ https://go.microsoft.com/fwlink/?linkid=866662
 Also install ODBC Driver 17 for SQL Server
 
 2. Setup Custom Server Configuration
-3. Go to the part-2 directory
+3. Go to the part_2 directory
 ```bash
 cd part_2
 ```
@@ -83,9 +83,27 @@ flask run --debug
 python rest_client.py
 ```
 
-#### Part_3
+### Part_3
+1. Go to the part_3 directory
+```bash
+cd part_3
+```
+2. Install Packages Inside the Virtual Environment if not installed
+```bash
+pip install -r requirements.txt
+```
 
+3. Run jupyterlab server
+```bash
+jupyter-lab 
+```
+4. Then open ```loan_predict.ipynb``` file and run the notebook cell for showing the results
 
+**Note: The discussion section has been added at the end of the notebook.**
+
+### Submitter Informations
+**Name:** Kamruzzman Shuvo <br>
+**Email:** kazishuvomain@gmail.com
 
 
 
