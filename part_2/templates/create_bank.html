@@ -1,0 +1,17 @@
+<h1>Add New Bank</h1>
+
+<form method="POST">
+    {{ form.hidden_tag() }}
+
+    <p>
+        {{ form.name.label }} <br>
+        {{ form.name() }}
+    </p>
+
+    <p>
+        {{ form.location.label }} <br>
+        {{ form.location() }}
+    </p>
+
+    <p>{{ form.submit() }}</p>
+</form>
